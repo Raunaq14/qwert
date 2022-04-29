@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("build") {
             steps {
-                echo 'running build'
+                echo 'build running'
                 bat 'python sniffle.py'
             }
         }
